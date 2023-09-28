@@ -1,0 +1,145 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    src: url(fonts/AmazonEmber_Lt.ttf);
+    font-family: amazon;
+    src: url(fonts/AmazonEmber_Rg.ttf);
+    font-family: amazon_rg;
+}
+
+body {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    /* font-family: amazon_rg; */
+    font-size: 1.3em;
+    font-weight: normal;
+    padding-top: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+label {
+    font-size: .6em;
+    color: grey;
+}
+
+input {
+    width: 265px;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 14px;
+    font-size: .7em;
+}
+
+a {
+    text-decoration: none;
+    font-size: .7em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 270px;
+    height: 195px;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    border: 1px solid rgba(211, 211, 211, 0.917);
+    border-radius: 2px;
+}
+
+p {
+    font-size: .55em;
+}
+
+button {
+    font-size: .58em;
+    width: 272.5px;
+    height: 22.5px;
+    background-color: rgb(255,191,0);
+    border: .5px solid black;
+    margin-top: 0px;
+}
+
+.create_account_button {
+    background-color: rgba(211, 211, 211, 0.463);
+    height: 22.5px;
+    width: 293px;
+}
+
+.password {
+    margin-left: 34px;
+    color: black;
+}
+
+.forgot_password {
+    margin-left: 105px;
+}
+
+span {
+    color:black;
+}
+
+.new_to_amazon {
+    overflow: hidden;
+    text-align: center;
+    font-size: .67em;
+}
+  
+.new_to_amazon:before,
+.new_to_amazon:after {
+    background-color: lightgrey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+.new_to_amazon:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+.new_to_amazon:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+hr {
+    width: 100vw;
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+
+.footer {
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    font-size: .9em;
+} 
+
+.copyright {
+    padding-top: 13px;
+    text-align: center;
+    font-size: .6em;
+}
+
